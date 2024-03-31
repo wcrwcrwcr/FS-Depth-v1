@@ -5,7 +5,7 @@ Our base model ZoeDepth:https://github.com/isl-org/ZoeDepth
 
 
 # training
-python train_mono.py -m zoedepth --pretrained_resource=""
+python train_v1.py -m zoedepth --pretrained_resource=""
 
 # Evaluating
 python evaluate.py -m zoedepth --pretrained_resource="local::/path/to/local/ckpt.pt" -d dataset name
